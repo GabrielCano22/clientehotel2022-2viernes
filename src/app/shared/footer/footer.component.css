@@ -1,0 +1,39 @@
+.imgfooter{
+    background-color: aqua;
+    /* background-image: url(../../../assets/img/banner.jpg); */
+    background-size: cover;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+.footer{
+    display: flex;
+    background-color: aqua;
+}
+ul,li{
+
+    text-decoration: none;
+    list-style-type: none;
+
+}
+ul{
+    margin-top: 50px;
+}
+.ubicacion{
+    background-color: aquamarine;
+    /* background-image: url(../../../assets/img/ubicacionHotel.png); */
+    width: 700px;
+    height: 200px;
+    background-size: cover;
+    margin-left: 20px;
+
+}
+.logof{
+    background-color: blueviolet;
+    /* background-image: url(../../../assets/img/logohotelf.png); */
+    width: 500px;
+    height: 200px;
+    background-size: cover;
+    margin-left: 20px;
+}

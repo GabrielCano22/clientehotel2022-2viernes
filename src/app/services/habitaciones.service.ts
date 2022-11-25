@@ -16,6 +16,10 @@ export class HabitacionesService {
     return this.peticion.get(uri)
   }
 
-  
+  consultarHabitacionPorId():Observable<any>{
+    let uri = "http://apibri.herokuapp.com/hotelesnick/habitacion";
+    let id = "id";
+    return this.peticion.get(uri+id)
+  }
 
 }
